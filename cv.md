@@ -3,8 +3,6 @@
 
 ## Junior Frontend Developer ##
 
---------------------------------------
-
 ## About me ##
 
 > Desire and perseverance to develop in
@@ -29,7 +27,7 @@
 
 --------------------------------------
 
-#### Code example &#58; ####
+### Code example &#58; ###
 
 **Sum of Digits / Digital Root KATA from CODEWARS**\
 Digital root is the recursive sum of all the digits in a number.
