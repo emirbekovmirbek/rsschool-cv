@@ -14,6 +14,7 @@
 > Email : emirbekov.mirbek@gmail.com  \
 > Tel : +(996) 778-20-10-12 \
 > Telegram : [@Emirbekov_Mirbek](https://t.me/Emirbekov_Mirbek)
+
 --------------------------------------
 
 ### Skills and Proficiency &#58; ###
