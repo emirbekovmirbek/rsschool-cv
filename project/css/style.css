@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} font-size: 20px;
-  font-weight: 400;
-  line-height: 25px;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
- 
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
 }
 a {
   text-decoration: none;
@@ -61,42 +62,54 @@ ul {
   font-weight: 500;
   line-height: 30px;
   padding-bottom: 5px;
-  border-bottom: 1px  solid #000000;
+  border-bottom: 1px solid #000000;
 }
-.university{
-    font-weight: 600;
-    color: #5ce1e5;
-    margin: 5px 0;
+.university {
+  font-weight: 600;
+  color: #5ce1e5;
+  margin: 5px 0;
 }
-.degree{
-    margin: 5px 0;
+.degree {
+  margin: 5px 0;
 }
-.degree > span{
-    color: #5ce1e5;
+.degree > span {
+  color: #5ce1e5;
 }
-.faculty >  span{
-    color: blue;
+.faculty > span {
+  color: blue;
 }
-.date{
-    color: #5ce1e5;
-    margin: 5px 0;
+.date {
+  color: #5ce1e5;
+  margin: 5px 0;
 }
-.contact{
-    color: #5ce1e5;
+.contact {
+  color: #5ce1e5;
 }
-.item{
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.item {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.item > .marker{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: #000000;
+.item > .marker {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
 }
-.item > span{
-    color: #5ce1e5;
+.item > span {
+  color: #5ce1e5;
 }
-
+.desc__task {
+  margin: 5px 0;
+}
+.code {
+  padding-top: 20px;
+  background-color: rgb(119, 139, 139);
+  width: 100%;
+  overflow: auto;
+  overflow-y: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  background: #efefef;
+}

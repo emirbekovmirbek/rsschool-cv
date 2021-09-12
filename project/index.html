@@ -139,6 +139,21 @@
             </li>
             <li class="item"> <span class="marker"></span>Прокладка кабеля линии связи</li>
           </ul>
+          <h3 class="subchapter">Code Example</h3>
+          <p class="desc__task">Sum of Digits / Digital Root KATA from CODEWARS
+            Digital root is the recursive sum of all the digits in a number. 
+            Given n, take the sum of the digits of n. If that value has more than one digit,
+             continue reducing in this way until a single-digit number is produced. 
+            The input will be a non-negative integer.</p>
+          <pre class="code">function digital_root(n) {
+  if((n+"").length === 1){
+    return n
+  } else {
+    return n = digital_root((n+"").split("")
+      .reduce((a,b)=>{return (+a) + (+b)} ));  
+    }
+}
+          </pre>
         </div>
       </div>
     </section>
