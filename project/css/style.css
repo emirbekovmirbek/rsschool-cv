@@ -18,13 +18,20 @@ a {
 ul {
   list-style: none;
 }
+.CV{
+    padding: 10px 0;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  box-shadow: 1px 0 10px #000000;
+
+}
 .wrapper {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
   display: flex;
   background-color: #ffffff;
-  box-shadow: 1px 0 10px #000000;
+
 }
 .CV_left {
   width: 350px;
@@ -112,4 +119,12 @@ ul {
   font-size: 12px;
   line-height: 20px;
   background: #efefef;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
 }
